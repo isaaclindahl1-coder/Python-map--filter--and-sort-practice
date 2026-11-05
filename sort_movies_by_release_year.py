@@ -7,3 +7,5 @@ movies = [
     ("Titanic", 1997)
 ]
 
+movies.sort(key=lambda x: x[1], reverse=True)
+print(movies)
